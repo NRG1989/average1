@@ -1,6 +1,6 @@
 package math
 
-// Найти среднее в массиве чисел
+// Найти среднее в массиве чисел.
 
 func Average(xs []float64) float64 {
 	total := float64(0)
@@ -10,7 +10,7 @@ func Average(xs []float64) float64 {
 	return total / float64(len(xs))
 }
 
-// Найти сумму в массиве
+// Найти сумму в массиве.
 func Sum(xs []float64) float64 {
 	total := float64(0)
 	for _, x := range xs {
