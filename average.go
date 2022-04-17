@@ -20,10 +20,10 @@ func Sum(xs []float64) float64 {
 }
 
 func Max(xs []float64) float64 {
-	max = xs[0]
+	max: = xs[0]
 	for x := range xs {
 		if xs[x] > max {
-			xs[x] = max
+			max = xs[x]
 		}
 
 	}
